@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-import hello
+
+import language
+_ = language._
+
 if __name__ == '__main__':
-    date, name = hello()
-    print('Último commit feito em:', date, ' por', name)
+    date, name = 'x','y'
+    print(_('Último commit feito em:'), date, _(' por'), name)
